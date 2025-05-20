@@ -1,0 +1,39 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: sk050-my-app-ingress
+  namespace: skala-practice
+spec:
+  ingressClassName: public-nginx
+  rules:
+  - host: sk050-myapp.skala25a.project.skala-ai.com  # 다른 호스트명 사용
+    http:
+      paths:
+      - backend:
+          service:
+            name: sk050-my-app
+            port:
+              number: 8080
+        path: /api
+        pathType: Prefix
+      - backend:
+          service:
+            name: sk050-my-app
+            port:
+              number: 8081
+        path: /actuator
+        pathType: Prefix
+      - backend:
+          service:
+            name: sk050-my-app
+            port:
+              number: 8080
+        path: /swagger
+        pathType: Prefix
+      - backend:
+          service:
+            name: sk050-my-app
+            port:
+              number: 8080
+        path: /
+        pathType: Prefix

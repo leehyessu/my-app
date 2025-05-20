@@ -1,0 +1,15 @@
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/MyappApplication.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/config/DataLoader.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/controller/HelloController.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/controller/PlayerController.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/controller/StockController.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/model/Player.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/model/PlayerStock.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/model/Stock.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/model/StockConstants.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/model/StockRequest.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/repository/PlayerRepository.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/repository/PlayerStockRepository.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/repository/StockRepository.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/service/PlayerService.java
+/config/workspace/cloud/k8s-ddive/myapp/01.my-app/src/main/java/com/sk/skala/myapp/service/StockService.java
